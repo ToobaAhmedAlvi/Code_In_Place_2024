@@ -1,6 +1,6 @@
-global b
-def name_user(b):
-    return b
 
-name_user("3")
-print(name_user.b)
+def name_user(b):
+    b=3
+    print(name_user.b)
+
+name_user.b
