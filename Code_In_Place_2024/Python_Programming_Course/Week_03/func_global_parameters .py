@@ -3,7 +3,7 @@
 
 x=input("Enter first number:\n")
 y=input("Enter second number:\n")
-operator= input("Please choose any operation "+"+"+"-"+"-"+"\n")
+operator= input("Please choose any operation "+"+"+"-"+"*"+"\n")
 
 #defining main function
 def main():

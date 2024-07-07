@@ -11,15 +11,16 @@ def multiply(a,b):
 def divide(a,b):
     return int(a)/int(b)
    
+#necessary to assign a function to a variable for (return functions)   
+
 sum=add(3,6)
 minus=subract(3,6)
 multiply=multiply(3,6)
 divide=divide(3,6)
 
 
-
 print("The sum is:",sum)
-print("The sum is:",minus)
-print("The sum is:",multiply)
-print("The sum is:",divide)
+print("The difference is:",minus)
+print("The product is:",multiply)
+print("The quotient is:",divide)
 
