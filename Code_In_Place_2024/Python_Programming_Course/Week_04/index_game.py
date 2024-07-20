@@ -20,9 +20,6 @@ def main():
         print("Wrong Answer.The correct answer is",correct_string)
 
 
-    
-
-
 if __name__=='__main__':
     main()
 
