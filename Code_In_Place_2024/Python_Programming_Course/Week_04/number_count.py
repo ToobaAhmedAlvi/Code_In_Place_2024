@@ -9,7 +9,19 @@ def get_number_from_user():
         num=int(user_input)
         number_list.append(num)
      
-    print(number_list)
+    return number_list
 
+def count_number(num_lst):
+    num_dict = {}
+    for num in num_lst:
+        if num not in num_dict:
+            num_dict[num] = 1
+        else:
+            num_dict[num] += 1
+    
+    for num in num_dict:
+        print(str(num) + " appears " + str(num_dict[num]) + " times.")
 
-get_number_from_user()
+number_list=get_number_from_user()
+print_count=count_number(number_list)
+print(print_count)
